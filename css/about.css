@@ -118,3 +118,75 @@ nav a {
     margin-bottom: 4%;
     background-position-x: 50%;
 }
+
+/* About section  */
+
+.about {
+    padding: 0 2% 2% 2%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 4%
+}
+
+/* main-content section  */
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 45%;
+    margin: 2.5%;
+    border-bottom: 2px dotted black;
+}
+
+.box3, .box4 {
+    margin-top: 5%;
+}
+
+.boxes h3 {
+    margin-top: 3%;
+}
+
+.boxes p {
+    margin-bottom: 3%;
+}
+
+.boxes a {
+    border: 3px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin-bottom: 6%;
+    color: black;
+}
+
+
+/* work together section  */
+
+.work-together {
+    margin: 5% 2.5% 5% 2.5%;
+}
+
+/* footer  */
+
+footer {
+    background: black;
+    height: 8vh;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+footer nav div {
+    margin-top: 4%;
+    margin-right: 3%;
+    width: 10%;
+
+}
+
+footer a {
+    color: #c2c2c2;
+}
