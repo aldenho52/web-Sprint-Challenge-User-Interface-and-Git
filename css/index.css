@@ -146,18 +146,12 @@ footer nav a {
 
 /* Nav Bar Styling */
 
-.lambdaLogo {
-    display: inline-block;
-}
-
 .navBar {
     display: flex;
     margin: 2% 0;
 }
 
 nav div {
-    display: inline-block;
-    text-align: center;
     justify-content: space-between;
     align-items: flex-end;
     color: black;
@@ -166,9 +160,7 @@ nav div {
 }
 
 .links {
-    display: inline-block;
     color: black;
-    text-decoration: none;
     margin-right: 5%;
 }
 

@@ -77,29 +77,18 @@ p {
 
 /* Nav Bar Styling */
 
-.lambdaLogo {
-    display: inline-block;
-}
-
 .navBar {
     display: flex;
     margin: 2% 0;
 }
 
 nav div {
-    display: inline-block;
-    text-align: center;
     justify-content: space-between;
     align-items: flex-end;
-    color: black;
-    text-decoration: none;
     margin: 2% 0;
 }
 
 .links {
-    display: inline-block;
-    color: black;
-    text-decoration: none;
     margin-right: 5%;
 }
 
@@ -178,15 +167,15 @@ footer {
 footer nav {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 footer nav div {
-    margin-top: 3%;
-    margin-right: 3%;
-    width: 10%;
-
+    align-items: center;
+    padding: 2.5%;
+    margin-right: 2%;
 }
 
 footer a {
-    color: #dbdbdb;
+    color: white;
 }
