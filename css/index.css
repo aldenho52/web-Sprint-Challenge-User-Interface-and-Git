@@ -172,12 +172,7 @@ nav a {
 /* image styling */
 
 .main-image {
-    background-image: url("file:///Users/aldenho/Desktop/LambdaSchoolProjects/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20vh;
     margin-bottom: 4%;
-    background-position-x: 50%;
 }
 
 /* box styling */

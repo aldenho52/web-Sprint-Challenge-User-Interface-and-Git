@@ -99,14 +99,9 @@ nav a {
 
 /* image styling */
 
-.main-image {
-    background-image: url("/Users/aldenho/Desktop/LambdaSchoolProjects/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo-about.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20vh;
+ .main-image {
     margin-bottom: 4%;
-    background-position-x: 50%;
-}
+} 
 
 /* About section  */
 
@@ -121,12 +116,15 @@ nav a {
 .boxes {
     display: flex;
     flex-flow: row wrap;
+    /* justify-content: flex-around; */
+    /* text-align: left; */
 }
 
 .box1, .box2, .box3, .box4 {
     width: 45%;
     margin: 2.5%;
     border-bottom: 2px dotted black;
+    /* text-align: left; */
 }
 
 .box3, .box4 {
@@ -135,10 +133,12 @@ nav a {
 
 .boxes h3 {
     margin-top: 3%;
+    /* text-align: left; */
 }
 
 .boxes p {
     margin-bottom: 3%;
+    /* text-align: left; */
 }
 
 .boxes a {
@@ -148,6 +148,7 @@ nav a {
     padding: 2% 4%;
     margin-bottom: 6%;
     color: black;
+    /* text-align: left; */
 }
 
 
